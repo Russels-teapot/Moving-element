@@ -1,0 +1,30 @@
+body {
+    color: #999;
+}
+.container {
+  width: 400px
+}
+.gameboard {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 3px solid #888;
+}
+.gameboard__row, .gameboard__cell {
+  border: 1px solid #888;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.gameboard__cell {
+  width: 50%
+}
+
+.gameboard__cell_active {
+  background-image: url("./src/img/goblin.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
