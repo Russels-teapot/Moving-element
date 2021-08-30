@@ -23,7 +23,7 @@ body {
 }
 
 .gameboard__cell_active {
-  background-image: url("./src/img/goblin.png");
+  background-image: url("../img/goblin.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
