@@ -8,14 +8,15 @@ body {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 3px solid #888;
+  border: 3px solid #8b0000;
 }
 .gameboard__row, .gameboard__cell {
-  border: 1px solid #888;
+  border: 1px solid #8b0000;
   padding: 10px;
   text-align: center;
   vertical-align: middle;
   position: relative;
+  background-color: #ff8c00;
 }
 
 .gameboard__cell {
